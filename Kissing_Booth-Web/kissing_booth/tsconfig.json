@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // ECMAScript 대상 버전
+    "module": "ESNext", // 모듈 시스템
+    "strict": true, // 엄격한 타입 검사
+    "jsx": "react-jsx", // React JSX 지원
+    "esModuleInterop": true, // ES 모듈 호환성
+    "skipLibCheck": true, // 라이브러리 타입 검사 건너뛰기
+    "forceConsistentCasingInFileNames": true, // 대소문자 일관성 검사
+    "types":["node"]
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

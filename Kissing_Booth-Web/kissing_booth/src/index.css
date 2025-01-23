@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SandBox_Bold';
+    src: url('./assets/fonts/Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'SandBox_Medium';
+    src: url('./assets/fonts/Medium.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'SandBox_Low';
+    src: url('./assets/fonts/Low.otf') format('opentype');
+  }

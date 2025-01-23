@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://kissing-booth-ai.com/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://kissing-booth-ai.com/result</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kissing-booth-ai.com/nickname</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kissing-booth-ai.com/ranking</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kissing-booth-ai.com/rankingTotal</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+</urlset>

@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "/Users/one_jae_kim/Desktop/Kissing_Booth-FE/linux",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

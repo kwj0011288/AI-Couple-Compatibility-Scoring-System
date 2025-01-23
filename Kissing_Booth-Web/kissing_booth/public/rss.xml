@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI 커플 궁합</title>
+    <link>https://kissing-booth-ai.com</link>
+    <description>내 애인과 나의 궁합을 확인해보세요!</description>
+    <language>ko</language>
+    <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+
+    <!-- 홈 페이지 -->
+    <item>
+      <title>AI 커플 궁합</title>
+      <link>https://kissing-booth-ai.com/</link>
+      <description>내 애인과 나의 궁합을 확인해보세요!</description>
+      <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+    </item>
+
+    <!-- 결과 페이지 -->
+    <item>
+      <title>궁합 확인</title>
+      <link>https://kissing-booth-ai.com/result</link>
+      <description>*위 결과는 실제 커플들의 관계와는 상관 없습니다.</description>
+      <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+    </item>
+
+    <!-- 닉네임 페이지 -->
+    <item>
+      <title>닉네임</title>
+      <link>https://kissing-booth-ai.com/nickname</link>
+      <description>닉네임 입력 후 전체 랭킹을 확인해보세요</description>
+      <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+    </item>
+
+    <!-- 랭킹 페이지 -->
+    <item>
+      <title>총 커플 순위</title>
+      <link>https://kissing-booth-ai.com/ranking</link>
+      <description>아무개의 랭킹은...</description>
+      <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+    </item>
+
+    <!-- 총 랭킹 페이지 -->
+    <item>
+      <title>총 커플 순위</title>
+      <link>https://kissing-booth-ai.com/rankingTotal</link>
+      <description>모든 사용자의 궁합 점수를 기반으로 한 총 랭킹을 확인하세요.</description>
+      <pubDate>2025-01-16T12:00:00+09:00</pubDate>
+    </item>
+  </channel>
+</rss>
