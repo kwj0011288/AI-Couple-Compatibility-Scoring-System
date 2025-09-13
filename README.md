@@ -14,6 +14,22 @@ The Kissing Booth project is an innovative AI-driven application that evaluates 
   <img src="Kissing-Booth Icon/3.png" alt="App Screenshot 3" width="250" style="margin: 10px;"/>
 </div>
 
+## 🌐 Language Support
+
+The application supports multiple languages to provide a localized experience for users worldwide:
+
+| Language | Code | Status |
+|----------|------|--------|
+| 🇺🇸 English | en-US | ✅ Supported |
+| 🇰🇷 Korean | ko-KR | ✅ Supported |
+| 🇯🇵 Japanese | ja-JP | ✅ Supported |
+| 🇨🇳 Chinese | zh-CN | ✅ Supported |
+
+- **Automatic Language Detection**: The app automatically detects the user's preferred language based on their device settings
+- **Complete Localization**: All UI elements, messages, and compatibility results are fully translated
+- **Cultural Adaptation**: Compatibility messages are culturally adapted for each language
+- **Easy Language Switching**: Users can manually change languages within the app
+
 ## 🏗️ Project Structure
 
 This repository contains three main components:
@@ -177,7 +193,7 @@ AI-Couple-Compatibility-Scoring-System/
 - **Target Audience**: Couples, Dating app users
 - **Age Rating**: 12+ (Teen)
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
 This appears to be a commercial application. For contribution guidelines, please refer to the project maintainers.
 
@@ -187,7 +203,7 @@ Please refer to the project's license file for usage rights and restrictions.
 
 ## 📞 Support
 
-For technical support or business inquiries, please contact the development team through the appropriate channels.
+For technical support or business inquiries, please contact the development team through the appropriate channels. -->
 
 ---
 
