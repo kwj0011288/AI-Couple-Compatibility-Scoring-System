@@ -9,9 +9,9 @@ The Kissing Booth project is an innovative AI-driven application that evaluates 
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="Kissing-Booth Icon/1.png?v=2" alt="App Screenshot 1" width="250" style="margin: 10px;"/>
-  <img src="Kissing-Booth Icon/2.png?v=2" alt="App Screenshot 2" width="250" style="margin: 10px;"/>
-  <img src="Kissing-Booth Icon/3.png?v=2" alt="App Screenshot 3" width="250" style="margin: 10px;"/>
+  <img src="Kissing-Booth Icon/screenshot1.png" alt="App Screenshot 1" width="250" style="margin: 10px;"/>
+  <img src="Kissing-Booth Icon/screenshot2.png" alt="App Screenshot 2" width="250" style="margin: 10px;"/>
+  <img src="Kissing-Booth Icon/screenshot3.png" alt="App Screenshot 3" width="250" style="margin: 10px;"/>
 </div>
 
 ## 🌐 Language Support
