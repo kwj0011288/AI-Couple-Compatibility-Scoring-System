@@ -172,9 +172,6 @@ AI-Couple-Compatibility-Scoring-System/
 - Linux
 
 ## 🔧 Backend API Functions
-
-The backend API (`https://api.kissing-booth-ai.com`) provides the following core functionalities:
-
 ### Core Endpoints
 
 | Endpoint | Method | Description | Parameters |
