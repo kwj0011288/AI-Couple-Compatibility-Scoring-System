@@ -2,6 +2,22 @@
 
 A comprehensive AI-powered platform that analyzes couple compatibility through facial recognition and machine learning algorithms. The system provides compatibility scores and rankings through multiple platform implementations.
 
+## 📋 Table of Contents
+
+- [🌟 Overview](#-overview)
+- [📱 Screenshots](#-screenshots)
+- [🌐 Language Support](#-language-support)
+- [🏗️ Project Structure](#️-project-structure)
+- [📱 Applications](#-applications)
+- [🚀 Key Features](#-key-features)
+- [🛠️ Technical Stack](#️-technical-stack)
+- [📊 Application Flow](#-application-flow)
+- [🌍 Supported Platforms](#-supported-platforms)
+- [🔧 Backend API Functions](#-backend-api-functions)
+- [📈 Features in Detail](#-features-in-detail)
+- [🔒 Privacy & Security](#-privacy--security)
+- [📱 App Store Information](#-app-store-information)
+
 ## 🌟 Overview
 
 The Kissing Booth project is an innovative AI-driven application that evaluates romantic compatibility between couples using advanced facial recognition technology. Users can upload photos of themselves and their partners to receive an AI-generated compatibility score along with personalized feedback messages.
@@ -154,6 +170,60 @@ AI-Couple-Compatibility-Scoring-System/
 - Windows
 - macOS
 - Linux
+
+## 🔧 Backend API Functions
+
+The backend API (`https://api.kissing-booth-ai.com`) provides the following core functionalities:
+
+### Core Endpoints
+
+| Endpoint | Method | Description | Parameters |
+|----------|--------|-------------|------------|
+| `/matches/` | POST | **AI Compatibility Analysis** - Processes couple photos and returns compatibility score | `user_id`, `photo1`, `photo2` |
+| `/matches/register-nickname/` | POST | **User Registration** - Registers user nickname and returns ranking | `user_id`, `nickname` |
+| `/matches/rankings/` | GET | **Leaderboard Data** - Retrieves paginated ranking list | `offset`, `limit` |
+| `/matches/total-users/` | GET | **User Statistics** - Returns total user counts | None |
+
+### API Function Details
+
+#### 🤖 AI Compatibility Analysis
+- **Purpose**: Core AI function that analyzes facial features and calculates compatibility
+- **Process**: 
+  - Receives two photos via multipart form data
+  - Applies facial recognition algorithms
+  - Generates compatibility score (0.0-10.0)
+  - Returns processed photo URLs and score
+- **Response**: `{ photo1_url, photo2_url, score }`
+
+#### 👤 User Registration & Ranking
+- **Purpose**: Manages user nicknames and calculates rankings
+- **Process**:
+  - Associates user ID with chosen nickname
+  - Calculates user's ranking position
+  - Validates nickname availability
+- **Response**: User ranking data and position
+
+#### 🏆 Leaderboard Management
+- **Purpose**: Provides paginated access to global rankings
+- **Features**:
+  - Supports pagination with offset/limit
+  - UTF-8 encoding for international nicknames
+  - Real-time ranking updates
+- **Response**: Paginated list of top-scoring users
+
+#### 📊 User Statistics
+- **Purpose**: Tracks platform engagement metrics
+- **Metrics**:
+  - `total_nickname`: Users with registered nicknames
+  - `total_no_nickname`: Anonymous users
+- **Usage**: Displays active user count on homepage
+
+### Technical Implementation
+- **Framework**: Django REST Framework
+- **Authentication**: User ID-based tracking
+- **File Handling**: Multipart form data for image uploads
+- **Encoding**: UTF-8 support for international characters
+- **Error Handling**: Comprehensive HTTP status codes and error messages
 
 ## 📈 Features in Detail
 
