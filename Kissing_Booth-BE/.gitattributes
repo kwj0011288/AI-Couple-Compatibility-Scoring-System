@@ -1,3 +1,4 @@
 *.data-* filter=lfs diff=lfs merge=lfs -text
 *.index filter=lfs diff=lfs merge=lfs -text
 Kissing_Booth-BE/matches/saved_model_format/** filter=lfs diff=lfs merge=lfs -text
+matches/saved_model_format/** filter=lfs diff=lfs merge=lfs -text
